@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E435F061FBDE9410099C333 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E435F051FBDE9410099C333 /* UIViewExt.swift */; };
+		0E435F081FBDEC7E0099C333 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E435F071FBDEC7E0099C333 /* UIButtonExt.swift */; };
+		0E435F0A1FC2DCF60099C333 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E435F091FC2DCF60099C333 /* FinishGoalVC.swift */; };
 		0E84B03F1FBDC2F1001383C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B03E1FBDC2F1001383C7 /* AppDelegate.swift */; };
-		0E84B0411FBDC2F1001383C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B0401FBDC2F1001383C7 /* ViewController.swift */; };
 		0E84B0441FBDC2F1001383C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E84B0421FBDC2F1001383C7 /* Main.storyboard */; };
 		0E84B0471FBDC2F1001383C7 /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B0451FBDC2F1001383C7 /* goalpost_app.xcdatamodeld */; };
 		0E84B0491FBDC2F1001383C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E84B0481FBDC2F1001383C7 /* Assets.xcassets */; };
 		0E84B04C1FBDC2F1001383C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E84B04A1FBDC2F1001383C7 /* LaunchScreen.storyboard */; };
+		0E84B0581FBDC3DB001383C7 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B0571FBDC3DB001383C7 /* GoalsVC.swift */; };
+		0E84B05A1FBDD394001383C7 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B0591FBDD394001383C7 /* GoalCell.swift */; };
+		0E84B05C1FBDDB07001383C7 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B05B1FBDDB07001383C7 /* GoalType.swift */; };
+		0E84B05E1FBDE13C001383C7 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B05D1FBDE13C001383C7 /* CreateGoalVC.swift */; };
+		0E84B0601FBDE538001383C7 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84B05F1FBDE538001383C7 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E435F051FBDE9410099C333 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0E435F071FBDEC7E0099C333 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		0E435F091FC2DCF60099C333 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		0E84B03B1FBDC2F1001383C7 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E84B03E1FBDC2F1001383C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E84B0401FBDC2F1001383C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E84B0431FBDC2F1001383C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E84B0461FBDC2F1001383C7 /* goalpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost_app.xcdatamodel; sourceTree = "<group>"; };
 		0E84B0481FBDC2F1001383C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E84B04B1FBDC2F1001383C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E84B04D1FBDC2F1001383C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E84B0571FBDC3DB001383C7 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
+		0E84B0591FBDD394001383C7 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		0E84B05B1FBDDB07001383C7 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		0E84B05D1FBDE13C001383C7 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		0E84B05F1FBDE538001383C7 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +70,11 @@
 		0E84B03D1FBDC2F1001383C7 /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				0E84B0561FBDC346001383C7 /* Extensions */,
+				0E84B0551FBDC33D001383C7 /* Enums */,
+				0E84B0541FBDC323001383C7 /* View */,
+				0E84B0531FBDC30D001383C7 /* Controller */,
 				0E84B03E1FBDC2F1001383C7 /* AppDelegate.swift */,
-				0E84B0401FBDC2F1001383C7 /* ViewController.swift */,
 				0E84B0421FBDC2F1001383C7 /* Main.storyboard */,
 				0E84B0481FBDC2F1001383C7 /* Assets.xcassets */,
 				0E84B04A1FBDC2F1001383C7 /* LaunchScreen.storyboard */,
@@ -65,6 +82,42 @@
 				0E84B0451FBDC2F1001383C7 /* goalpost_app.xcdatamodeld */,
 			);
 			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		0E84B0531FBDC30D001383C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E84B0571FBDC3DB001383C7 /* GoalsVC.swift */,
+				0E84B05D1FBDE13C001383C7 /* CreateGoalVC.swift */,
+				0E435F091FC2DCF60099C333 /* FinishGoalVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E84B0541FBDC323001383C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E84B0591FBDD394001383C7 /* GoalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E84B0551FBDC33D001383C7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0E84B05B1FBDDB07001383C7 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0E84B0561FBDC346001383C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E84B05F1FBDE538001383C7 /* UIViewControllerExt.swift */,
+				0E435F051FBDE9410099C333 /* UIViewExt.swift */,
+				0E435F071FBDEC7E0099C333 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E84B0411FBDC2F1001383C7 /* ViewController.swift in Sources */,
+				0E84B05A1FBDD394001383C7 /* GoalCell.swift in Sources */,
+				0E84B05E1FBDE13C001383C7 /* CreateGoalVC.swift in Sources */,
+				0E84B05C1FBDDB07001383C7 /* GoalType.swift in Sources */,
+				0E84B0581FBDC3DB001383C7 /* GoalsVC.swift in Sources */,
+				0E435F061FBDE9410099C333 /* UIViewExt.swift in Sources */,
 				0E84B03F1FBDC2F1001383C7 /* AppDelegate.swift in Sources */,
+				0E84B0601FBDE538001383C7 /* UIViewControllerExt.swift in Sources */,
+				0E435F081FBDEC7E0099C333 /* UIButtonExt.swift in Sources */,
+				0E435F0A1FC2DCF60099C333 /* FinishGoalVC.swift in Sources */,
 				0E84B0471FBDC2F1001383C7 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34Z878A5X;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goalpostapp.goalpost-app";
@@ -293,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34Z878A5X;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goalpostapp.goalpost-app";
